@@ -1,0 +1,22 @@
+<!-- -->
+<Config>
+  <DevDestination>C:\dev</DevDestination>
+  <Environment>
+    <Variables>
+      <Variable Name="devdir" Location="User" Type="Path">.\</Variable>
+      <Variable Name="devbindir" Location="User" Type="Path">bin</Variable>
+    </Variables>
+    <Path>
+      <Variable>bin</Variable>
+    </Path>
+  </Environment>
+  <Folders>
+    <Folder>bin</Folder>
+  </Folders>
+  <Installers>
+    <Installer Name="sublime" Type="Zip">
+      <Source>Sublime Text Build 3047.zip</Source>
+      <Destination>bin\sublime\</Destination>
+    </Installer>
+  </Installers>
+</Config>
